@@ -69,6 +69,7 @@ class Test::Unit::TestCase
   def ride_show_json
     #curl "http://www.strava.com/api/v1/rides/77563"
     '{"ride":{"averageSpeed":23260.8064010041,"location":"San Francisco, CA","startDate":"2010-02-28T16:31:35Z","description":null,"averageWatts":175.112,"name":"02/28/10 San Francisco, CA","startDateLocal":"2010-02-28T08:31:35Z","maximumSpeed":64251.72,"timeZoneOffset":-8.0,"athlete":{"username":"julianbill","name":"Julian Bill","id":1139},"elevationGain":1441.02,"distance":82369.1,"elapsedTime":14579,"bike":{"name":"Serotta Legend Ti","id":903},"id":77563,"movingTime":12748}}'
+    #'{"ride":{"id":48007116,"startDate":"2013-04-09T13:58:33Z","startDateLocal":"2013-04-09T06:58:33Z","timeZoneOffset":-28800,"elapsedTime":7634,"movingTime":6663,"distance":54775.9,"averageSpeed":8.220906498574216,"averageWatts":162.261,"maximumSpeed":58375.799999999996,"elevationGain":137.4,"location":"Menlo Park, CA","name":"04/09/2013 Menlo Park, CA","bike":{"id":201231,"name":"November"},"athlete":{"id":7976,"name":"Luke StClair","username":"secureboot"},"description":"","commute":false,"trainer":false}}'
   end
   
   def ride_efforts_json

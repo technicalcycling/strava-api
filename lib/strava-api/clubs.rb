@@ -2,7 +2,7 @@ module StravaApi
   module Clubs
     #returns all clubs, don't need an offset
     def clubs(name)
-      raise StravaApi::CommandError if name.blank?
+      raise StravaApi::CommandError if name.empty?
       
       name = name.strip
       raise StravaApi::CommandError if name.empty?

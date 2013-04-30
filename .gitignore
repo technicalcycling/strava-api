@@ -19,3 +19,6 @@ rdoc
 pkg
 
 ## PROJECT::SPECIFIC
+.idea/.name
+.idea/.rakeTasks
+.idea/workspace.xml

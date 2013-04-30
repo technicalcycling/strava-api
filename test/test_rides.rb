@@ -156,10 +156,10 @@ class TestRides < Test::Unit::TestCase
       :start_date_local => "2010-02-28T08:31:35Z",
       :id => 77563,
       :maximum_speed => 64251.72
-    }.each do |property, value| 
+    }.each do |property, value|
       assert result[property] == value, "mismatch on #{property}: #{result[property]} != #{value}"
     end
-    
+
     assert result[:athlete].is_a?(StravaApi::Member)
     assert result[:athlete].username == "julianbill"
     
